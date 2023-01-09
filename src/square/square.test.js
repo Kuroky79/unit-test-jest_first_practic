@@ -19,7 +19,7 @@ describe('square', ()=>{
     expect(spyMathPow).toBeCalledTimes(1)// cколько вызовов ждем метода pow выше описано
 
     square(1)
-    expect(spyMathPow).toBeCalledTimes(0)
+    expect(spyMathPow).toBeCalledTimes(1)
 
 
     afterEach(()=>{
